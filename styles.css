@@ -166,10 +166,11 @@ input[type="text"] {
 }
 
 .design img {
-    width: 100%; /* جعل الصور تمتد لتحتل المساحة بالكامل داخل الشريحة */
-    height: auto; 
-    border: 2px solid transparent;
+  width: 90%; /* استخدام نسبة العرض النسبي لتغيير عرض الصور بناءً على عرض الشاشة */
+  height: auto; 
+  border: 2px solid transparent;
 }
+
 
 .design.selected img {
     border-color: green;
